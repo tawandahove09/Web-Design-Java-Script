@@ -1,0 +1,206 @@
+body{
+  padding: 25px;
+  background-color: rgb(170, 198, 214);
+}
+h1 {
+	 font-family: Arial;
+   
+}
+
+.logo {
+   position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.header-top{
+    padding-top: 100%;
+    margin-top:-7%;
+    background-color: rgb(22, 143, 212);
+    width: 104%;
+    min-height: 200px;
+    padding: 60px 30px;
+    box-sizing: border-box;
+    position: absolute;
+     left: 1px;
+    
+}
+
+
+/* Profile Account Icon */
+.profile-account {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+.profile-account img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.profile-account img:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+.navi{
+  font-family:  'Arial';
+   word-spacing: 100px;
+   font-size: 32px;
+   background-color: rgb(81, 183, 241);
+   width: 100%;
+   padding: 20px 40px;
+   
+}
+.navibackground{
+padding-top: 100%;
+    margin-top:-10%;
+    background-color: rgb(81, 183, 241);
+    width: 104%;
+    min-height: 0px;
+    padding: 60px 30px;
+    box-sizing: border-box;
+    position: absolute;
+     left: -10px;
+     height: 5%;
+     z-index: -1;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0)
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*Dashboard Section*/
+.dashboard{
+    background-color: rgb(170, 198, 214);
+    border-radius: 10px ;
+     display: flex;
+    justify-content: left;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+
+
+.air-card{
+   background-color: #b6dfc0;
+    padding: 5px;
+    width: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: seagreen
+}
+
+.location{
+  font-size: 24px;
+  text-align: left;
+}
+
+h2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.air-card2{
+  background-color: #bdd821;
+    padding: 5px;
+    width: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(135, 136, 58);
+
+}
+
+.location2{
+  font-size: 24px;
+  text-align: left;
+}
+
+.air-card3{
+  background-color: #df7878;
+    padding: 5px;
+    width: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(204, 54, 54);
+}
+
+.location3{
+   font-size: 24px;
+  text-align: left;
+}
+
+h3{
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.risk-assessment{
+  background-color: rgb(170, 198, 214);
+}
+
+.anchor1{
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.page2 {
+    font-family: Arial, sans-serif;
+    background: #f2f8f6;
+    margin: 0;
+}
+
+.health {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.health h1 {
+    color: #267a68;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px #ccc;
+    text-align: left;
+}
+
+.card h2 {
+    color: #267a68;
+}
+
+.card p {
+    line-height: 1.5;
+}
